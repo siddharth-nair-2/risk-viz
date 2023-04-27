@@ -186,7 +186,7 @@ const DataTable: React.FC<DataTableProps> = ({
       <input
         type="text"
         id="filter-text-box"
-        placeholder="Filter..."
+        placeholder="Filter table..."
         onChange={onFilterTextBoxChanged}
         className=" w-80 border-2 border-black rounded-md p-2"
       />

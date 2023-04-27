@@ -99,7 +99,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className=" flex justify-center items-center py-4 w-full gap-12">
+      <div className=" flex justify-center items-center py-4 w-full gap-12 flex-wrap">
         <select
           onChange={handleYearChange}
           className=" border-2 border-black p-2 px-4 rounded-full"
